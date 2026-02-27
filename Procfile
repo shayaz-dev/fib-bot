@@ -1,1 +1,1 @@
-worker: python fib_4h_monitor.py
+worker: python fib_bot_final.py
