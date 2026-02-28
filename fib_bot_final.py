@@ -48,10 +48,11 @@ except ValueError:
 print(f"Config OK — Chat ID: {MY_CHAT_ID}", flush=True)
 
 # ------------------ FIB CONFIG ------------------
-FIB_RATIOS = [0.5, 0.618, 1.0, 1.272, 1.618]
+FIB_RATIOS = [0.5, 0.618, 0.786, 1.0, 1.272, 1.618]
 FIB_LABELS = {
     0.5:   '0.500 (Mid)',
     0.618: '0.618 (Golden)',
+    0.786: '0.786 (Square Root)',
     1.0:   '1.000 (Full Retrace)',
     1.272: '1.272 (Extension)',
     1.618: '1.618 (Golden Ext)',
